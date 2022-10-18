@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;500;600;700;900 & family= Oswald & family= Poppins:ital,wght@0,400; 0,700;1,500 & display=trocar');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sem serifa;
+
+}
+
+header {
+    font-weight: 600px;
+    line-height: 29, 26px;
+    font-size: 24px;
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+.link-menu {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    width: 79px;
+    height: 29px;
+    margin-top: 44px;
+    margin-left: 76px;
+    cursor: pointer;
+
+}
+
+.button-menu {
+    cursor: pointer;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    margin-left: 23px;
+}
+
+main {
+    position: relative;
+    width: 568px;
+    height: 500px;
+    top: 217px;
+    left: 125px;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    margin-top: -220px;
+    margin-left: 779px;
+
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    margin-top: 21px;
+    margin-left: 779px;
+
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 21px;
+    margin-left: 779px;
+
+}
+
+.button-aside {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #ADFF00;
+    border-radius: 20.5px;
+    margin-top: 21px;
+    margin-left: 779px;
+    width: 239px;
+    height: 64px;
+    border-radius: 30.5px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 644px) {
+
+    header {
+        display: none;
+
+    }
+
+    main {
+        width: 50vw;
+        height: 50vh;
+        min-height: 317px;
+        margin: 10px 22px 334px 14px;
+        margin-left: -116px;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 490px 63px 28px 225px;
+        font-size: 55px;
+        line-height: 61px;
+        width: 263px;
+        height: 52px;
+        margin-top: 24.02px;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        width: 232px;
+        height: 37px;
+        margin: 2px 79px 4px 225px;
+    }
+
+    p {
+        display: none;
+
+    }
+
+    .button-aside {
+        
+        background: #ADFF00;
+        border-radius: 20.5px;
+        margin-top: 21px;
+        margin-left: 779px;
+        width: 239px;
+        height: 64px;
+        border-radius: 30.5px;
+        cursor: pointer;
+        margin: 18px 73px  0 225px;
+
+    }
+
+}
+
+
+
+
+
